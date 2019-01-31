@@ -1,0 +1,11 @@
+{
+  "success" : true,
+  "data": [
+    {"inoffice": "in", "name": "Jura"},
+    {"inoffice": "out", "name": "Sveta"},
+    {"inoffice": "in", "name": "Vova"},
+    {"inoffice": "out", "name": "Ann"},
+    {"inoffice": "in", "name": "Vlad"}
+
+  ]
+}

@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrap {
+  display: flex;
+}
+.wrap__info {
+  width: 65%;
+}
+.wrap__list {
+  width: 33%;
+}
+
+.in {
+  color: black;
+}
+.in:before {
+  content: "in ";
+  background: green;
+  color: white;
+}
+
+.out {
+  color: gray;
+}
+.out:before {
+  content: "out";
+  background: red;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
