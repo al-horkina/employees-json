@@ -11,13 +11,11 @@
 .employee__title {
   font-weight: 400;
   font-size: 28px;
-  letter-spacing: 0.3px;
   padding-bottom: 22px;
 }
 .employee__subtitle {
   font-weight: 400;
   font-size: 21px;
-  letter-spacing: 0.3px;
   padding-bottom: 6px;
 }
 .employee__text {
