@@ -7,18 +7,19 @@
         $xhr.done((response) => {
             if (response.success) {
                 response.data.forEach((elem, i, arr) => {
-                    const $list = $(
-                        '<div class="list__item"/>'
-                    );
-                    $('#employeeList').append($list);
-                    $list.html(elem.name);
+                    let $list;
 
                     if (elem.inoffice === 'in') {
-                        $('.list__item').addClass('in');
+                        $list = $(
+                            '<div class="list__item in"/>'
+                        );
                     }else {
-                        $('.list__item').addClass('out');
+                        $list = $(
+                            '<div class="list__item out"/>'
+                        );
                     }
-
+                    $('#employeeList').append($list);
+                    $list.html(elem.name);
                 });
             } else {
                 console.log('Error! AJAX response');
